@@ -12,7 +12,7 @@ const Banner = () => {
                 backgroundPosition: "center",
                 backgroundBlendMode: "screen"
             }}
-            className='py-10 lg:py-28 px-4 lg:px-24'>
+            className='py-14 lg:py-28 px-4 lg:px-24'>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row">
                     <div className='lg:mx-10 mb-7 lg:mb-0'>

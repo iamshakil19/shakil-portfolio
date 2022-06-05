@@ -3,7 +3,7 @@ import aboutImg from '../../Assets/about.png'
 import resume from '../../Assets/resume.pdf'
 const About = () => {
     return (
-        <div className='py-10 px-4 lg:px-24' id='about'>
+        <div className='pt-20 mb-10 px-4 lg:px-24' id='about'>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div className='lg:px-5'>

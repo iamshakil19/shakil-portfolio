@@ -20,7 +20,7 @@ import vscode from '../../Assets/Tools/vscode.png'
 
 const Skill = () => {
     return (
-        <div className='py-10 lg:pt-28 px-4 lg:px-24' id='skill'>
+        <div className='pt-20 pb-10 lg:pt-28 px-4 lg:px-24' id='skill'>
             <h2 className='text-2xl lg:text-4xl font-bold text-slate-700 text-center pb-5'>My Web Development Skills</h2>
 
             <div class="divider md:w-[500px] lg:w-[600px] mx-auto"><h3 className='text-xl lg:text-2xl font-bold text-slate-700 text-center mb-7 mt-5'>Expertise</h3></div>

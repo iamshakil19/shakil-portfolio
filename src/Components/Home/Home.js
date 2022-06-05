@@ -14,7 +14,7 @@ const Home = () => {
         <div
             style={{
                 background: `url(${bodyBg})`,
-                backgroundAttachment: "fixed",
+                // backgroundAttachment: "fixed",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundBlendMode: "screen"
