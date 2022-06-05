@@ -6,6 +6,7 @@ import linkedin from '../../Assets/linkedin.png'
 const Contact = () => {
     return (
         <div
+        id='contact'
             style={{
                 background: `url(${contactBg})`,
                 backgroundAttachment: "fixed",
@@ -14,9 +15,9 @@ const Contact = () => {
             }}
             className=" py-10 px-4 md:mx-10 lg:mx-24 my-10"
         >
-            <div className='p-5 grid grid-cols-1 lg:grid-cols-2 items-center'>
+            <div className='p-5 grid grid-cols-1 md:grid-cols-2 items-center'>
 
-                <div className='lg:mx-auto'>
+                <div className='md:mx-auto'>
                     <h2 className='text-white text-2xl font-bold mb-5'>Get In Touch</h2>
 
                     <p className='text-white mb-1'><span className=' font-bold'>Address :</span> Mirpur 13, Dhaka 1216, Bangladesh</p>
@@ -38,7 +39,7 @@ const Contact = () => {
                 </div>
 
 
-                <div className='lg:mx-auto'>
+                <div className='md:mx-auto'>
                     <h2 className='text-white text-2xl font-bold mb-5 mt-10'>Say Something</h2>
 
                     <input type="text" placeholder="Your Name" class="input w-52 lg:w-80 bg-transparent focus:outline-none border text-white border-white" />
@@ -50,7 +51,7 @@ const Contact = () => {
                     <textarea type="text" placeholder="Your Message" class="input w-52 lg:w-80 bg-transparent focus:outline-none border text-white border-white h-24 pt-2" />
                     <br />
                     <br />
-                    <input className='bg-white font-bold py-1 px-4 rounded-md text-blue-600 cursor-pointer float-right' type="submit" value="Submit" />
+                    <input className='bg-white font-bold py-2 px-5 rounded-sm text-blue-600 cursor-pointer' type="submit" value="Submit" />
                 </div>
             </div>
         </div>

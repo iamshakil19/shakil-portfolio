@@ -7,6 +7,7 @@ import Skill from '../Skill/Skill';
 
 import bodyBg from '../../Assets/body-bg.png'
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <Skill></Skill>
             <Projects></Projects>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
