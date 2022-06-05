@@ -33,7 +33,7 @@ const Navbar = ({children}) => {
                     <ul class="menu menu-horizontal p-0">
                         <li><a href='#home'>Home</a></li>
                         <li><a href='#about' to="/">About</a></li>
-                        <li><Link to="/">Skill</Link></li>
+                        <li><a href='#skill'>Skill</a></li>
                         <li><Link to="/">Projects</Link></li>
                         <li><Link to="/">Contact</Link></li>
                         <li>
