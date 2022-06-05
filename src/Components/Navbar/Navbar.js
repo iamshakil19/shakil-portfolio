@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 const Navbar = ({children}) => {
     const [dark, setDark] = useState(false)
     return (
-        <div data-theme={dark ? "night" : "light"}>
-            <div class="navbar bg-base-200 lg:px-24 px-5">
+        <div data-theme={dark ? "night" : "light"} className="top-0 sticky z-50">
+            <div class="navbar bg-base-200 lg:px-24 px-5 ">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -31,8 +31,8 @@ const Navbar = ({children}) => {
                 </div>
                 <div class="navbar-end hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/">About</Link></li>
+                        <li><a href='#home'>Home</a></li>
+                        <li><a href='#about' to="/">About</a></li>
                         <li><Link to="/">Skill</Link></li>
                         <li><Link to="/">Projects</Link></li>
                         <li><Link to="/">Contact</Link></li>

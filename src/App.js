@@ -9,9 +9,7 @@ function App() {
 
   return (
     <div data-theme="light">
-        <Routes>
-          <Route path='/' element={<Home/>}></Route>
-        </Routes>
+        <Home></Home>
     </div>
   );
 }
