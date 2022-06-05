@@ -6,7 +6,7 @@ import github from '../../Assets/github.png'
 import live from '../../Assets/live.png'
 const Projects = () => {
     return (
-        <div className='py-10 px-4 lg:px-24' id='skill'>
+        <div className='py-10 px-4 lg:px-24' id='projects'>
             <h2 className='text-2xl lg:text-4xl font-bold text-slate-700 text-center pb-10'>My Top 3 Projects</h2>
 
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
