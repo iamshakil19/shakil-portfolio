@@ -10,7 +10,7 @@ const Projects = () => {
             <h2 className='text-2xl lg:text-4xl font-bold text-slate-700 text-center pb-10'>My Top 3 Projects</h2>
 
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                <div class="card sm:max-w-sm md:max-w-md lg:max-w-lg bg-base-100 shadow-xl image-full mx-auto">
+                <div class="card sm:max-w-sm md:max-w-md lg:max-w-lg bg-base-100 shadow-xl image-full mx-auto" data-aos="fade-up">
                     <figure><img src={phoneCreation} alt="Shoes" /></figure>
                     <div class="card-body px-0">
                         <h2 class="card-title pl-10">Phone Creation</h2>
@@ -32,7 +32,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div class="card sm:max-w-sm md:max-w-md lg:max-w-lg  bg-base-100 shadow-xl image-full mx-auto">
+                <div class="card sm:max-w-sm md:max-w-md lg:max-w-lg  bg-base-100 shadow-xl image-full mx-auto" data-aos="fade-up">
                     <figure><img src={cycleWorld} alt="Shoes" /></figure>
                     <div class="card-body px-0">
                         <h2 class="card-title pl-10">Cycle World</h2>
@@ -54,7 +54,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div class="card sm:max-w-sm md:max-w-md lg:max-w-lg  bg-base-100 shadow-xl image-full mx-auto">
+                <div class="card sm:max-w-sm md:max-w-md lg:max-w-lg  bg-base-100 shadow-xl image-full mx-auto" data-aos="fade-up">
                     <figure><img src={strength} alt="Shoes" /></figure>
                     <div class="card-body px-0">
                         <h2 class="card-title pl-10">Center Of Strength</h2>

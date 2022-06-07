@@ -6,7 +6,7 @@ const About = () => {
         <div className='pt-20 mb-10 px-4 lg:px-24' id='about'>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div className='lg:px-5'>
+                    <div className='lg:px-5' data-aos="fade-left">
                         <h1 class=" text-2xl lg:text-4xl font-bold text-slate-700">LET’S    <br />
                             INTRODUCE ABOUT
                             <br />
@@ -17,7 +17,7 @@ const About = () => {
                                 type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-32 rounded-md text-sm mx-3 border-0 shadow-xl'>GET RESUME</button>
                         </a>
                     </div>
-                    <div className='lg:px-5'>
+                    <div className='lg:px-5' data-aos="fade-right">
                         <img src={aboutImg} class=" w-96 rounded-lg lg:w-[500px]" />
                     </div>
                 </div>

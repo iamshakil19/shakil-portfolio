@@ -13,7 +13,7 @@ const Banner = () => {
                 backgroundBlendMode: "screen"
             }}
             className='py-14 lg:py-28 px-4 lg:px-24'>
-            <div class="hero">
+            <div class="hero" data-aos="fade-up">
                 <div class="hero-content flex-col lg:flex-row">
                     <div className='lg:mx-10 mb-7 lg:mb-0'>
                         <div className='flex items-center'>

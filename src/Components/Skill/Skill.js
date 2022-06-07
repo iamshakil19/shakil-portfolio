@@ -26,7 +26,7 @@ const Skill = () => {
             <div class="divider md:w-[500px] lg:w-[600px] mx-auto"><h3 className='text-xl lg:text-2xl font-bold text-slate-700 text-center mb-7 mt-5'>Expertise</h3></div>
 
 
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5' data-aos="fade-up">
                 <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-6 rounded-xl mx-auto'>
                     <img className='w-20 mx-auto' src={html} alt="" />
                 </div>
@@ -55,7 +55,7 @@ const Skill = () => {
             <div class="divider md:w-[500px] lg:w-[600px] mx-auto"><h3 className='text-xl lg:text-2xl font-bold text-slate-700 text-center my-7'>Familiar</h3></div>
 
 
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5' data-aos="fade-up">
                 <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-7 rounded-xl mx-auto'>
                     <img className='w-24 mx-auto' src={node} alt="" />
                 </div>
@@ -80,7 +80,7 @@ const Skill = () => {
             <div class="divider md:w-[500px] lg:w-[600px] mx-auto"><h3 className='text-xl lg:text-2xl font-bold text-slate-700 text-center my-7'>Tools</h3></div>
             
 
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5' data-aos="fade-up">
                 <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-10 rounded-xl mx-auto'>
                     <img className='w-14 mx-auto' src={github} alt="" />
                 </div>
