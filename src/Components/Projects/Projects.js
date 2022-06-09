@@ -14,7 +14,8 @@ const Projects = () => {
                     <figure><img src={phoneCreation} alt="Shoes" /></figure>
                     <div class="card-body px-0">
                         <h2 class="card-title pl-10">Phone Creation</h2>
-                        <p className='pl-10'>This is a phone manufacturer's website</p>
+                        <p className='pl-10'><li>This is a phone manufacturer's website</li></p>
+                        <p className='pl-10 mb-5'><li>Here a wholesaler can buy the product as well as go to the order page and see all the details of his order.</li></p>
                         <div class="card-actions justify-start px-2 mx-auto">
                             <a href="https://assignment-12-50cc2.web.app/" target={'_blank'}>
                                 <button
