@@ -27,27 +27,27 @@ const Skill = () => {
 
 
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5' data-aos="fade-up">
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-6 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-6 rounded-xl mx-auto'>
                     <img className='w-20 mx-auto' src={html} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-6 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-6 rounded-xl mx-auto'>
                     <img className='w-20 mx-auto' src={css} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-8 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-8 rounded-xl mx-auto'>
                     <img className='w-20 mx-auto' src={bootstrap} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-10 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-10 rounded-xl mx-auto'>
                     <img className='w-20 mx-auto' src={tailwind} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-10 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-10 rounded-xl mx-auto'>
                     <img className='w-14 mx-auto' src={js} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-10 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-10 rounded-xl mx-auto'>
                     <img className='w-14 mx-auto' src={react} alt="" />
                 </div>
             </div>
@@ -56,23 +56,23 @@ const Skill = () => {
 
 
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5' data-aos="fade-up">
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-7 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-7 rounded-xl mx-auto'>
                     <img className='w-24 mx-auto' src={node} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-10 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-10 rounded-xl mx-auto'>
                     <img className='w-24 mx-auto' src={express} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-12 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-12 rounded-xl mx-auto'>
                     <img className='w-28 mx-auto' src={mongodb} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-10 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-10 rounded-xl mx-auto'>
                     <img className='w-16 mx-auto' src={restapi} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-8 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-8 rounded-xl mx-auto'>
                     <img className='w-12 mx-auto' src={firebase} alt="" />
                 </div>
             </div>
@@ -81,23 +81,23 @@ const Skill = () => {
             
 
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5' data-aos="fade-up">
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-10 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-10 rounded-xl mx-auto'>
                     <img className='w-14 mx-auto' src={github} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-14 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-14 rounded-xl mx-auto'>
                     <img className='w-24 mx-auto' src={heroku} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-8 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-8 rounded-xl mx-auto'>
                     <img className='w-28 mx-auto' src={netlify} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-9 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-9 rounded-xl mx-auto'>
                     <img className='w-16 mx-auto' src={postman} alt="" />
                 </div>
 
-                <div className='hover:shadow-xl hover:shadow-blue-100 w-48 h-32 pt-12 rounded-xl mx-auto'>
+                <div className='hover:shadow-xl hover:shadow-blue-100 w-32 md:w-48 h-32 pt-12 rounded-xl mx-auto'>
                     <img className='w-12 mx-auto' src={vscode} alt="" />
                 </div>
             </div>
