@@ -16,11 +16,11 @@ const Projects = () => {
                     <figure><img src={phoneCreation} alt="Shoes" /></figure>
                     <div class="card-body px-0">
                         <h2 class="card-title px-10">Phone Creation</h2>
-                        <p className='px-10 text-justify'><li>This is a phone manufacturer's website</li></p>
-                        <p className='px-10 text-justify'><li>This is a medium-level full-stack project. There are some separate routes for
+                        <p className='px-10 '><li>This is a phone manufacturer's website</li></p>
+                        <p className='px-10 '><li>This is a medium-level full-stack project. There are some separate routes for
                             admins, such as adding products, managing products, managing orders, and
                             making admin.</li></p>
-                        <p className='px-10 mb-7 text-justify'><li>Here a wholesaler can buy the product as well as go to the order page and see all the details of his order.</li></p>
+                        <p className='px-10 mb-7'><li>Here a wholesaler can buy the product as well as go to the order page and see all the details of his order.</li></p>
                         <div class="card-actions justify-start px-2 mx-auto">
                             <a href="https://assignment-12-50cc2.web.app/" target={'_blank'}>
                                 <button
@@ -47,8 +47,8 @@ const Projects = () => {
                     <div class="card-body px-0">
                         <h2 class="card-title px-10">Cycle World</h2>
                         <p className='px-10'><li>Its a bicycle website</li></p>
-                        <p className='px-10 text-justify'><li>The website uses Express js for BackEnd and MongoDB for the database and JWT, Firebase are used for security and authentication.</li></p>
-                        <p className='px-10 mb-7 text-justify'><li>If you want you can increase the quantity of products, as well as delivery,
+                        <p className='px-10'><li>The website uses Express js for BackEnd and MongoDB for the database and JWT, Firebase are used for security and authentication.</li></p>
+                        <p className='px-10 mb-7'><li>If you want you can increase the quantity of products, as well as delivery,
                             delete and add</li></p>
                         <div class="card-actions justify-start px-2 mx-auto">
                             <a href="https://assignment11-a3660.web.app/" target={'_blank'}>
@@ -63,7 +63,7 @@ const Projects = () => {
                                 <button
                                     type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-28 rounded-md text-sm mx-3 border-0 shadow-xl flex justify-center items-center'> <img className='w-6 inline mr-2' src={github} alt="" /> Server</button>
                             </a>
-                            <Link to={"/cycleWorld"}>
+                            <Link to={"/BiCycle"}>
                                 <button
                                     type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-28 rounded-md text-sm mx-3 border-0 shadow-xl flex justify-center items-center'> <img className='w-6 inline mr-2' src={i} alt="" />Details</button>
                             </Link>
@@ -76,8 +76,8 @@ const Projects = () => {
                     <div class="card-body px-0">
                         <h2 class="card-title px-10">Center Of Strength</h2>
                         <p className='px-10'><li>This is a gym website</li></p>
-                        <p className='px-10 text-justify'><li>React Router has been used for a better user experience</li></p>
-                        <p className='px-10 mb-7 text-justify'><li>Clicking on the purchase button of the package on the home page will take
+                        <p className='px-10'><li>React Router has been used for a better user experience</li></p>
+                        <p className='px-10 mb-7'><li>Clicking on the purchase button of the package on the home page will take
                             you to the checkout page and the checkout page has been protected.</li></p>
                         <div class="card-actions justify-start px-2 mx-auto">
                             <a href="https://assignment10-e4ffa.web.app/" target={'_blank'}>
