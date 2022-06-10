@@ -70,7 +70,7 @@ const Contact = () => {
                         <textarea type="text" name='message' placeholder="Your Message" class="input w-52 lg:w-80 bg-transparent focus:outline-none border text-white border-white h-24 pt-2" required />
                         <br />
                         <br />
-                        <input className='bg-white font-bold py-2 px-5 rounded-sm text-blue-600 cursor-pointer' type="submit" value="Submit" />
+                        <input className='bg-white w-52 lg:w-80 font-bold py-3 rounded-md text-blue-600 cursor-pointer' type="submit" value="Submit" />
                     </form>
                 </div>
             </div>

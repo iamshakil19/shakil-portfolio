@@ -11,10 +11,10 @@ const About = () => {
                             INTRODUCE ABOUT
                             <br />
                             MYSELF</h1>
-                        <p class="py-6 w-full md:w-96 lg:w-[500px] text-justify">My name is TM Sakil. I am 23years old. I am currently studying for a diploma in computer subject at a private college in Dhaka. My hobbies are traveling and playing cricket. My strength is I am a self-motivated and hard-working person. My weakness is I easily Trust anyone. <br /> That's all about me.</p>
+                        <p class="py-6 w-full md:w-96 lg:w-[500px] text-justify">My name is TM Sakil. I am 23years old. I am currently studying for a diploma in computer subject at a private college in Dhaka. My hobbies are traveling and playing cricket. <br /> My strength is I am a self-motivated and hard-working person. My weakness is I easily Trust anyone. <br /> That's all about me.</p>
                         <a href={resume} download={resume}>
                             <button
-                                type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-32 rounded-md text-sm mx-3 border-0 shadow-xl'>GET RESUME</button>
+                                type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-32 rounded-md text-sm mx-3 lg:mx-0 border-0 shadow-xl'>GET RESUME</button>
                         </a>
                     </div>
                     <div className='lg:px-5' data-aos="fade-up">
