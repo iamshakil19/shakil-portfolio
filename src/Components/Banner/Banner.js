@@ -23,12 +23,12 @@ const Banner = () => {
                         <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mt-5 text-slate-700">I AM TM SAKIL</h1>
                         <p class="py-6 text-xl font-bold text-slate-700">FRONT END WEB DEVELOPER</p>
                         <a href="#contact">
-                            <button className='hover:bg-gradient-to-r from-blue-500 to-violet-500 font-bold hover:text-white h-11 border-blue-400 hover:border-0 w-32 border-2 rounded-md text-sm hover:duration-500 hover:shadow-xl m-2'>HIRE ME</button>
+                            <button className='hover:bg-gradient-to-r from-blue-500 to-violet-500 font-bold hover:text-white h-11 border-blue-400 hover:border-0 w-32 border-2 rounded-md text-sm hover:shadow-xl m-2'>HIRE ME</button>
                         </a>
 
                         <a href="https://drive.google.com/file/d/1Q9AwLROf1rmsgpCi1V4xolFr6AqzdfEN/view?usp=sharing" target={'_blank'}>
                             <button
-                                type='submit' className='hover:bg-gradient-to-r from-blue-500 to-violet-500 font-bold hover:text-white h-11 border-blue-400 hover:border-0 w-32 border-2 rounded-md text-sm hover:duration-500 sm:mx-3 m-2 hover:shadow-xl'>RESUME</button>
+                                type='submit' className='hover:bg-gradient-to-r from-blue-500 to-violet-500 font-bold hover:text-white h-11 border-blue-400 hover:border-0 w-32 border-2 rounded-md text-sm sm:mx-3 m-2 hover:shadow-xl'>RESUME</button>
                         </a>
                     </div>
                     <div className='lg:mx-10'>

@@ -13,7 +13,7 @@ const Projects = () => {
 
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2'>
                 <div class="card bg-base-100 shadow-xl image-full mx-auto" data-aos="fade-up">
-                    <figure><img src={phoneCreation} alt="Shoes" /></figure>
+                    <figure><img src={phoneCreation} alt="" /></figure>
                     <div class="card-body px-0">
                         <h2 class="card-title px-10">Phone Creation</h2>
                         <p className='px-10 '><li>This is a phone manufacturer's website</li></p>
