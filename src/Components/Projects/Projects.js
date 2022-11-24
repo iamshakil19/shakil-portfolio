@@ -2,6 +2,7 @@ import React from 'react';
 import phoneCreation from '../../Assets/phone-creation.png'
 import cycleWorld from '../../Assets/cycle-world.png'
 import strength from '../../Assets/strength.png'
+import payra from '../../Assets/payra.png'                
 import github from '../../Assets/github.png'
 import i from '../../Assets/i.png'
 import live from '../../Assets/live.png'
@@ -9,9 +10,37 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className='pt-20 pb-14 px-4 lg:px-24' id='projects'>
-            <h2 className='text-2xl lg:text-4xl font-bold text-slate-700 text-center pb-10'>My Top 3 Projects</h2>
+            <h2 className='text-2xl lg:text-4xl font-bold text-slate-700 text-center pb-10'>My Top 4 Projects</h2>
 
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2'>
+                <div class="card bg-base-100 shadow-xl image-full mx-auto" data-aos="fade-up">
+                    <figure><img src={payra} alt="" /></figure>
+                    <div class="card-body px-0">
+                        <h2 class="card-title px-10">Payra</h2>
+                        <p className='px-10 '><li>This is a blood donation website</li></p>
+                        <p className='px-10 '><li>Here a user can register as a donor And those who need blood can make a direct phone call or submit a form</li></p>
+                        <p className='px-10 mb-7'><li>Only admins have access to the dashboard and everything is controlled from there.</li></p>
+                        <div class="card-actions justify-start px-2 mx-auto">
+                            <a href="https://my-payra-9d36e.web.app/" target={'_blank'}>
+                                <button
+                                    type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-28 rounded-md text-sm mx-3 border-0 shadow-xl flex justify-center items-center'> <img className='w-6 inline mr-2' src={live} alt="" />Live</button>
+                            </a>
+                            <a href="https://github.com/iamshakil19/my-payra-client" target={'_blank'}>
+                                <button
+                                    type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-28 rounded-md text-sm mx-3 border-0 shadow-xl flex justify-center items-center'> <img className='w-6 inline mr-2' src={github} alt="" />Client</button>
+                            </a>
+                            <a href="https://github.com/iamshakil19/my-payra-server" target={'_blank'}>
+                                <button
+                                    type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-28 rounded-md text-sm mx-3 border-0 shadow-xl flex justify-center items-center'> <img className='w-6 inline mr-2' src={github} alt="" /> Server</button>
+                            </a>
+                            <Link to={"/payra"}>
+                                <button
+                                    type='submit' className='bg-gradient-to-r from-blue-500 to-violet-500 font-bold text-white h-11 w-28 rounded-md text-sm mx-3 border-0 shadow-xl flex justify-center items-center'> <img className='w-6 inline mr-2' src={i} alt="" />Details</button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card bg-base-100 shadow-xl image-full mx-auto" data-aos="fade-up">
                     <figure><img src={phoneCreation} alt="" /></figure>
                     <div class="card-body px-0">

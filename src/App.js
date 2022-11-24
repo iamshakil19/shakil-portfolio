@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import PhoneCreation from './Components/Details/PhoneCreation';
 import BiCycle from './Components/Details/BiCycle';
 import Strength from './Components/Details/Strength';
+import Payra from './Components/Details/Payra';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='/payra' element={<Payra></Payra>}></Route>
         <Route path='/phoneCreation' element={<PhoneCreation></PhoneCreation>}></Route>
         <Route path='/bicycle' element={<BiCycle></BiCycle>}></Route>
         <Route path='/strength' element={<Strength></Strength>}></Route>
