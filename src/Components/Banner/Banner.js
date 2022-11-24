@@ -21,7 +21,7 @@ const Banner = () => {
                             <div className='border-b-2 w-36 lg:w-80 mt-1 border-black'></div>
                         </div>
                         <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mt-5 text-slate-700">I AM TM SAKIL</h1>
-                        <p class="py-6 text-xl font-bold text-slate-700">FRONT END WEB DEVELOPER</p>
+                        <p class="py-6 text-xl font-bold text-slate-700">FULL STACK DEVELOPER</p>
                         <a href="#contact">
                             <button className='hover:bg-gradient-to-r from-blue-500 to-violet-500 font-bold hover:text-white h-11 border-blue-400 hover:border-0 w-32 border-2 rounded-md text-sm hover:shadow-xl m-2'>HIRE ME</button>
                         </a>
